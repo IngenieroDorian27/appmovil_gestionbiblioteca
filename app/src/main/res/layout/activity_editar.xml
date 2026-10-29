@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@color/color11"
+    tools:context=".menubiblioteca.crud.AgregarLibroActivity">
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/etEditarNombre"
+        android:hint="@string/NombreLibro"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="60dp"
+        android:inputType="textPersonName"
+        android:textStyle="bold"
+        >
+    </EditText>
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/etEditarAutor"
+        android:hint="@string/AutorLibro"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etEditarNombre"
+        android:layout_marginTop="40dp"
+        android:inputType="textPersonName"
+        android:textStyle="bold"
+        >
+    </EditText>
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/etEditarCategoria"
+        android:hint="@string/CategoriaLibro"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etEditarAutor"
+        android:layout_marginTop="40dp"
+        android:inputType="textPersonName"
+        android:textStyle="bold"
+        >
+    </EditText>
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/etEditarFecha"
+        android:hint="@string/FechaLibro"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etEditarCategoria"
+        android:layout_marginTop="40dp"
+        android:inputType="textPersonName"
+        android:textStyle="bold"
+        >
+    </EditText>
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/etEditarIsbn"
+        android:hint="@string/IsbnLibro"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etEditarFecha"
+        android:layout_marginTop="40dp"
+        android:inputType="textPersonName"
+        android:textStyle="bold"
+        >
+    </EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnEditarLibro"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etEditarIsbn"
+        android:text="@string/Actualizar"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/color8"
+        android:backgroundTint="@color/color2"
+        >
+
+    </Button>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

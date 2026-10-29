@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">GestiónBiblioteca</string>
+    <string name="NombreLibro">Nombre Libro</string>
+    <string name="AutorLibro">Autor Libro</string>
+    <string name="CategoriaLibro">Categoría Libro</string>
+    <string name="FechaLibro">Fecha Publicación Libro</string>
+    <string name="IsbnLibro">ISBN Libro</string>
+    <string name="Registrar">Registrar</string>
+    <string name="Actualizar">Actualizar</string>
+    <string name="DatoM">Dato</string>
+    <string name="AgregarC">Agregar Libro</string>
+    <string name="ModificarC">Modificar Registros</string>
+    <string name="Visualizar">Previsualizar Libros</string>
+    <string name="Biblioteca">Biblioteca Pública</string>
+    <string name="Libros">Libros</string>
+    <string name="Buscar">Buscar</string>
+</resources>

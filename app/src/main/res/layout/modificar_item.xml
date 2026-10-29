@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvTituloNombre"
+                android:text="Nombre Libro"
+                android:textColor="@color/color2"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                >
+            </TextView>
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="30dp"
+                android:id="@+id/updateButton"
+                android:src="@drawable/edit"
+                >
+            </ImageView>
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentEnd="true"
+                android:id="@+id/deleteButton"
+                android:src="@drawable/delete"
+                >
+            </ImageView>
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvTituloAutor"
+            android:text="Autor"
+            android:maxLines="3"
+            android:layout_marginTop="4dp"
+            android:textColor="@color/color1"
+
+            >
+
+        </TextView>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
